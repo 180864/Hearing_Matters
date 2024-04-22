@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title>Hearing Matters Australia</title>
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	</head>
+	<body>      
+		<section class="header1">
+			 <nav  data-spy ="affix" data-offset-top = "197">
+			 	<a href="" target="blank"><img src="Images/HMA.jpg" width="200" height="80" ></a>
+			 	<div class="nav-links"  id="navLinks">
+			 		<i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+			 			<li><a href="what we do.html" target="blank">HOME</a>
+			 			<li><a href="CASE STUDIES.html" target="blank"> ABOUT </a>
+			 				<li> <a href="who we are.html" target="blank">SERVICES</a>
+			 			<li><a href="Career.html" target="blank"> MAKE AN IMPACT </a>
+			 			<li><a href="OUR TEAM.html" class="hero-btn" target="blank"> LOGIN</a>
+			 	</ul>
+			 </div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+			 </nav>
+			 <div class="text-box">
+			 	<h1>Hearing Loss? <br> We can help</h1>
+			 	<a href="MEET OUR TEAM.html" class="hero-btn" target="blank"> Explore Now</a>
+			 </div>
+			 <div class="b3">
+			 	<span><p>HEARING MATTERS AUSTRALIA</p></span>
+			 </div>
+		</section>
+
+		<!------------Javascript for toggle menu---------->
+
+<script>
+
+	var navLinks= document.getElementById('navLinks')
+	function showMenu() {
+		navLinks.style.right="0";
+	}
+	function hideMenu() {
+		navLinks.style.right="-200px";
+	}
+</script>
+
+<!------COURSE-------->
+
+
+<section class="we">
+	<h1> ABOUT US</h1>
+	<div class="row" data-aos="zoom-in-down">
+		<div class="we-col">
+			<h3> <a href="who we are.html"  target="blank"><b> Who We Are.</b></a></h3>
+		</div>
+		<div class="we-col">
+			<h3><a href="what we do.html" target="blank"><b>What We Do.</b></a></h3>
+		</div>
+		<div class="we-col">
+			<h3><a href="CASE STUDIES.html" target="blank"> <b>What is Done.</b></a></h3>
+		</div>
+	</div>
+</section>
+
+<div class="containers">
+    <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><a href="https://www.hearingmattersaustralia.org/"><img src="https://s3.amazonaws.com/media.audiologydesign.com/wp-content/uploads/sites/350/2022/02/18150540/family10.jpg" width="200" height="80"> </a></div>
+    <div class="swiper-slide"><a href="https://www.hearingmattersaustralia.org/"><img src="https://media.istockphoto.com/id/1302312883/photo/cute-girl-with-her-mother-during-install-hearing-aid-by-her-audiologist-hearing-treatment-for.jpg?s=612x612&w=0&k=20&c=rAsfDiglHPQmDvKBZl0IMWFjPIMEUVKwe2iXDz1fi-8="></a></div>
+     <div class="swiper-slide"><a href="https://www.hearingmattersaustralia.org/"><img src="https://cdn.shopify.com/s/files/1/2440/1247/files/hearing-aids-for-kids.jpg?v=1691461327"></a></div>
+      <div class="swiper-slide"><a href="https://www.hearingmattersaustralia.org/"><img src="https://www.helpingmehear.com/wp-content/uploads/2018/04/relationships.jpg"></a></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</div>
+
+<!-------SUCCESS STORY------->
+<section class="success">
+	<div class="succ" data-aos="zoom-in-up">
+	<h1> Create Your Success Story</h1>
+			<a href="MEET OUR TEAM.html" class="suc" target="blank"><b>Let's Talk</b></a>
+		</div>
+</section>
+
+
+<!----------FOOTER--------->
+
+<section class="footer">
+ 	<div class="logos" data-aos="flip-left">
+ 		<h3>Follow Us on Social Platforms</h3>
+ 		<center><img src="Images/HMA.jpg" width="50" height="50" ></center>
+ 		<a ><i class="fa fa-2x fa-facebook"></i></a>
+ 		<a><i class="fa fa-2x fa-twitter"></i></a>
+ 		<a href="https://instagram.com/vreca.in?utm_medium=copy_link" target="____blank"><i class="fa fa-2x fa-instagram"></i></a>
+ 		<a href="https://www.linkedin.com/company/vreca" target="_____blank"><i class="fa fa-2x fa-linkedin"></i></a>
+ 	</div>
+ 	<p> Made with <i class="fa fa-heart-o"></i> by OUR TEAM</p>
+</section>
+
+<!-----ANIMATIONS------>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    	offset:120,
+    	 duration: 600,
+    	 once:true
+    });
+  </script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper', {
+		autoplay:{
+			delay:3000,
+			disableOnInteraction:false,
+		},
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+
+</body>
+</html>
